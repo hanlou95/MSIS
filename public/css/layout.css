@@ -1,0 +1,134 @@
+	header {
+		background-color: lightgrey;
+		height: 75px;
+	}
+
+	nav {
+		background-color: #47c1bf;
+	}
+
+	body {
+		font-family: Verdana;
+	}
+
+	main {
+		background-color: white;
+		height: 1400px;
+		color: #202e78;
+	}
+
+	footer {
+		background-color: lightgrey;
+		height: 60px;
+	}
+
+	ul.horizontal {
+		list-style-type: none;
+		background-color: ;
+		padding: 0px;
+		margin-left: 106px;
+		margin-bottom: 0px;
+	}
+
+	ul.horizontal li {
+		display: inline-block;
+	}
+
+	ul.horizontal a {
+		display: block;
+		padding: 10px;
+		text-decoration: none;
+		color: white;
+	}
+
+	.separate {
+		float: right;
+	}
+
+	#events_drop_content li {
+		display: block;
+	}
+
+	#events_drop_content {
+		position: absolute;
+		background-color: #202e78;
+		padding: 0px;
+		z-index: 1;
+		display: none;
+	}
+
+	#events_dropdown:hover #events_drop_content {
+		display: block;
+	}
+
+	#events_dropdown:hover #events_drop_link {
+		background-color: #00848e;
+		color: white;
+	}
+
+	#events_drop_content a:hover {
+		background-color: #000639;
+		color: white;
+	}
+
+	.logo{
+		margin-left: 20px;
+		margin-top: 12px;
+	}
+
+	.system{
+		color: white;
+	}
+
+    form {
+        padding: 20px;
+        color: #202e78;
+    }
+
+    label {
+        display: inline-block;
+        width: 200px;
+        font-weight: normal;
+    }
+
+    input, textarea {
+        margin: 3px;
+        margin-left: 20px;
+        border-radius: 3px;
+        border-color: #202e78;
+    }
+
+    .button {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        background-color: #47c1bf;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        padding: 6px 10px 6px 10px;
+    }
+
+    .button:hover {
+        background-color: #202e78;
+        color: white;
+    }
+
+    #submit {
+        margin-left: 10px;
+    }
+
+    input:required {
+        margin: 10px;
+        margin-left: 20px;
+        border-color: #202e78;
+        border-width: 1px;
+    }
+
+    legend {
+        color: #202e78;
+    }
+
+    #copyright {
+        margin-top: 14px;
+        color: white;
+    }
